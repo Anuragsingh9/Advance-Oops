@@ -1,0 +1,2661 @@
+{
+	"info": {
+		"_postman_id": "2f6311d0-dd06-411d-8080-55b5bfd27c5d",
+		"name": "Module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Event",
+			"item": [],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "News",
+			"item": [
+				{
+					"name": "Search News By Title",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/searchNews/an",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"searchNews",
+								"an"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Search News By Title",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/newsletter/news/review/searchNews/co",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"newsletter",
+										"news",
+										"review",
+										"searchNews",
+										"co"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:25:05 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:25:05 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.32"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "XSRF-TOKEN=eyJpdiI6InRMem9ucWk1MXU1d2lLSnhwR3hpMGc9PSIsInZhbHVlIjoiRzl5UFBJaFhCcWNZcytiVTVRdHNRSVwvbGpDSnJcL1lPUHFLTVF5RXNYOFc1a3dMQzl1TGFHNTBpZDBVa1BIenFxIiwibWFjIjoiNmZjZTVjOGM5YTQxMmM0ZjUyMjM1MTE3ZjhjNTQ4YzgyMjJkN2Q1YjY4YjMwYzQzMTkwNTY0NzZkNTIwYjQ4YyJ9; expires=Mon, 10-Aug-2020 14:25:05 GMT; Max-Age=7200; path=/"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "laravel_session=eyJpdiI6IjBoWXhnS3lrR0VsVUR6RUhtYnExRHc9PSIsInZhbHVlIjoiMWFKVDdJcEw0OVdiWWRDcmRuaEJvSlpqV0pcL1dOTDFnK0xDZThXOG1RYXZzWnhVK3ZVVjRibndSSWRsbDhcL1U3IiwibWFjIjoiZTAyMTc5YjFmMmRiZDdjYzc0NzkxYzk1NjNkY2I0Yjc5NTdkZmU4N2FiMWRhYjNmYjA5Y2JmZmI4NTcxZDM3YSJ9; expires=Mon, 10-Aug-2020 14:25:05 GMT; Max-Age=7200; path=/; httponly"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"news_id\": 10,\n            \"title\": \"Coaamerona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 10,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 5,\n            \"title\": \"Cora hif\",\n            \"header\": \"Todays Headlinegg fggg\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": \"dgsgdgdgsd.jpg\",\n            \"review_id\": 5,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 8,\n            \"title\": \"Core to\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 8,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 9,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 9,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 11,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 11,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 12,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"archived\",\n            \"media_thumbnail\": null,\n            \"review_id\": 12,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 13,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 13,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596712427.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 14,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"archived\",\n            \"media_thumbnail\": null,\n            \"review_id\": 14,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596714031.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 15,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 15,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596714097.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 16,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"archived\",\n            \"media_thumbnail\": null,\n            \"review_id\": 16,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596714271.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 17,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 17,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596715084.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 18,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 18,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596715203.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 19,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 19,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596715245.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 20,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 20,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596715558.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 21,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"archived\",\n            \"media_thumbnail\": null,\n            \"review_id\": 21,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596716950.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 22,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 22,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596717584.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 23,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 23,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596717701.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 24,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 24,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596717728.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 25,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 25,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596718515.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 26,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"rejected\",\n            \"media_thumbnail\": null,\n            \"review_id\": 26,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596718561.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 27,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 27,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596718582.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 28,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 28,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 29,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"rejected\",\n            \"media_thumbnail\": null,\n            \"review_id\": 29,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596724253.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 30,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 30,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 31,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 31,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596729670.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 32,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"rejected\",\n            \"media_thumbnail\": null,\n            \"review_id\": 32,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596780469.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 4,\n            \"title\": \"Corona hifgdfd\",\n            \"header\": \"Todays Headline\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": \"dgsgdgdgsd.jpg\",\n            \"review_id\": 4,\n            \"media_url\": null,\n            \"review_reaction\": [\n                {\n                    \"reviewable_id\": 4,\n                    \"review_bad\": 0,\n                    \"review_average\": 1,\n                    \"review_good\": 0\n                }\n            ]\n        }\n    ],\n    \"links\": {\n        \"first\": \"http://127.0.0.1:8000/newsletter/news/review/searchNews/co?page=1\",\n        \"last\": \"http://127.0.0.1:8000/newsletter/news/review/searchNews/co?page=1\",\n        \"prev\": null,\n        \"next\": null\n    },\n    \"meta\": {\n        \"current_page\": 1,\n        \"from\": 1,\n        \"last_page\": 1,\n        \"path\": \"http://127.0.0.1:8000/newsletter/news/review/searchNews/co\",\n        \"per_page\": 100,\n        \"to\": 27,\n        \"total\": 27\n    },\n    \"status\": true\n}"
+						}
+					]
+				},
+				{
+					"name": "send review",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/review/update/send?news_id=6",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"review",
+								"update",
+								"send"
+							],
+							"query": [
+								{
+									"key": "news_id",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "send review",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://127.0.0.1:8000/newsletter/news/review/review/update/send?news_id=40&review_reaction=1",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"newsletter",
+										"news",
+										"review",
+										"review",
+										"update",
+										"send"
+									],
+									"query": [
+										{
+											"key": "news_id",
+											"value": "40"
+										},
+										{
+											"key": "review_reaction",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:28:32 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:28:31 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.32"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "XSRF-TOKEN=eyJpdiI6InVRM2lIb2ttXC9VaWdXU1hPTEExTWp3PT0iLCJ2YWx1ZSI6Im5IRzJMWDB4ZFU4am1BYVVLdHJGaXBjYXZwVFFDbjVsRENFRE9VZEJZTXhtWVVBcWpQaUFiMGVEOVJ5R1dpQ1wvIiwibWFjIjoiNzcyNDNjMWFkYmUwMDMyNmRmYjhlZTEzNDM3MmRiOGYxYzc5MjA1ZmMzYWU1ZjE0OGZmZTYwNWY1ODNlOTA5NCJ9; expires=Mon, 10-Aug-2020 14:28:32 GMT; Max-Age=7200; path=/"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "laravel_session=eyJpdiI6IkJvSnpRaE04WHVDRnhEeXhYVjVxa0E9PSIsInZhbHVlIjoiM0xGWDlBenVPUmp0aWZ1N0ZkNnZHbHdtblNucXBOeFwvZzJFcFZENlcrellKdEo2clwvcXJtb2NnQ0ZVOWFEckxpIiwibWFjIjoiNDdhMGFjNTBhM2M4NTEzZThmZjg4NDFkZTBjMGY3OGQ5ZjEyOWE0YjMzOTE5YmQ0Y2E4MjQ4NTZhNzljNDE3ZCJ9; expires=Mon, 10-Aug-2020 14:28:32 GMT; Max-Age=7200; path=/; httponly"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"news\": {\n            \"news_id\": 40,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"rejected\",\n            \"media_thumbnail\": null,\n            \"review_id\": 40,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596872076.jpg\",\n            \"review_reaction\": [\n                {\n                    \"reviewable_id\": 40,\n                    \"review_bad\": 2,\n                    \"review_average\": 1,\n                    \"review_good\": 1\n                }\n            ]\n        },\n        \"review_id\": 5,\n        \"review_text\": null,\n        \"review_reaction\": \"1\",\n        \"is_visible\": 1,\n        \"reviewed_by\": {\n            \"user_id\": 1,\n            \"full_name\": \" \",\n            \"fname\": null,\n            \"lname\": null,\n            \"email\": \"anuragsingh9999999@gmail.com\",\n            \"role\": \"M0\"\n        }\n    },\n    \"status\": true\n}"
+						}
+					]
+				},
+				{
+					"name": "CheckWorkshop",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/checkworkshop",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"checkworkshop"
+							],
+							"query": [
+								{
+									"key": "workshopId",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "CheckWorkshop",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/newsletter/news/review/checkworkshop",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"newsletter",
+										"news",
+										"review",
+										"checkworkshop"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:32:49 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:32:49 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.32"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "XSRF-TOKEN=eyJpdiI6ImRpSlpTVzJ5WjJaSkZ3Qzl1dEoyQ1E9PSIsInZhbHVlIjoiSWpCUWZqWW1cL1JIMnVqa3U3djNDZThYQ3orVGlzdktCSTlDN2V4eDFncng4SUhZVFJ5MGJaWVI1cXZhUUhib2EiLCJtYWMiOiI0OTBkMjJjY2Y2YzAwMGZmNmMwMWE3OTQyYTIxMGE0MzFjYTljY2Y1ZGI2ZTQzNjkyNGFjMmRlMzIyNjllNWIyIn0%3D; expires=Mon, 10-Aug-2020 14:32:49 GMT; Max-Age=7200; path=/"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "laravel_session=eyJpdiI6IlM3cmxSanVtM0F4MnlmQ2gybzFSSnc9PSIsInZhbHVlIjoieWdrTTdpZytzbVhacjN4c1Jxa1wvZjdDdDBSWXhzV1NEOWZ4UnZiSm9PTzk0V0c5aXM1djYzeFRvMFVcL201NGQyIiwibWFjIjoiZDE3YjVlMzMzMGEwOTFhZGEzNWU1NDMxNTZlN2YxZGRmOTBmMzVmYWUzMzFhMGZhZWFlZDk0NjI3OTZhNDJmMiJ9; expires=Mon, 10-Aug-2020 14:32:49 GMT; Max-Age=7200; path=/; httponly"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "NewsByStatus",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/getnewss/pre_validation",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"getnewss",
+								"pre_validation"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "NewsByStatus",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/newsletter/news/getnews/bystatus?status=pre_validated",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"newsletter",
+										"news",
+										"getnews",
+										"bystatus"
+									],
+									"query": [
+										{
+											"key": "status",
+											"value": "pre_validated"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:39:12 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:39:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.32"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "XSRF-TOKEN=eyJpdiI6IkRtQjJuTUt0WDEydDh4Ym1reEdabFE9PSIsInZhbHVlIjoiWFlqTThhMnBjSnV4VURwYTFQMUFvTGZneHoyNGVpQTlBaVFyR0JpUFhKcnkxcW5XMVIwWUVZd0pQbVcyNThRdSIsIm1hYyI6IjQ4NjkyNDFlZTFlYzU5YzZhMDllNzIzOTFhZTJlMDMyZWJmZTI1MmMxZTY5N2I2NmI5OWNhMzc1ZTk5NjY4ZDEifQ%3D%3D; expires=Mon, 10-Aug-2020 14:39:12 GMT; Max-Age=7200; path=/"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "laravel_session=eyJpdiI6IkI4cmZKWVlOXC9IaXNGbG1XdU1EQ3l3PT0iLCJ2YWx1ZSI6IktRZnpLNWMwY0s3cThCa2hzb1VUMFVIWVhkaWNXMVwvcWtUNEUwNTBuV3FQcnQ2NGV3M3hRSHM0UFowcTVCMDlmIiwibWFjIjoiYWYxZDcwYTNlODg2Mzc5NTFiMzQ1NmUzMWE0YjUzZjVhOGE2NjQ1YTgwMzc5OTc0NzI0YTBhZDRkYTJhZTgzMyJ9; expires=Mon, 10-Aug-2020 14:39:12 GMT; Max-Age=7200; path=/; httponly"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"news_id\": 4,\n            \"title\": \"Corona hifgdfd\",\n            \"header\": \"Todays Headline\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 5,\n            \"title\": \"Cora hif\",\n            \"header\": \"Todays Headlinegg fggg\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 6,\n            \"title\": \"Updated bn n\",\n            \"header\": \"This is Updating bn\",\n            \"description\": \"News updatin is in process bn\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 7,\n            \"title\": \"Updated bn n\",\n            \"header\": \"This is Updating bn\",\n            \"description\": \"News updatin is in process bn\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 8,\n            \"title\": \"Core to\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 9,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 10,\n            \"title\": \"Coaamerona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 11,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 13,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 15,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 17,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 18,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 19,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 20,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 22,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 23,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 24,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 25,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 27,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 28,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 30,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 31,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 37,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 38,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 41,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 42,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 43,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 44,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 45,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 46,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 47,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 48,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 49,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 50,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 51,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 52,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 53,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 54,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 55,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 56,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 57,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 58,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 59,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 60,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 61,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 62,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 63,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 64,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 65,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 66,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 67,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 68,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 69,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 70,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 71,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 72,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 73,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 74,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 75,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 76,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 77,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 78,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 79,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 80,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 81,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 82,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 83,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 84,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 85,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 86,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 87,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 88,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 89,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 90,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 91,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 92,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 93,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 94,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 95,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 96,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 97,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 98,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 99,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 100,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 101,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 102,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 103,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 104,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 105,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 106,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 107,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 111,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 112,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        },\n        {\n            \"news_id\": 113,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"created_by\": 2\n        }\n    ],\n    \"status\": true\n}"
+						}
+					]
+				},
+				{
+					"name": "GroupNewsByStatus",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/getnews/status",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"getnews",
+								"status"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "GroupNewsByStatus",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://127.0.0.1:8000/newsletter/news/getnews/status",
+									"protocol": "http",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"newsletter",
+										"news",
+										"getnews",
+										"status"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:42:04 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 10 Aug 2020 12:42:04 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.32"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "XSRF-TOKEN=eyJpdiI6InYwNzVMc0x6TzVnNTdtTzNMXC9JS1wvUT09IiwidmFsdWUiOiJ5K1F6Qk9DN2RQdmxPb3R0emRcL3FEZlFEcDVyRGtkOVZabHJtakk3OUkrc3hZbVpxalhpaGhzcW1nQzdhY2F4VCIsIm1hYyI6ImQ5NTk2OGFjODk1NTg3NTBmOGZmMTkzZDA0ZjUxMTdlOTY5NWQwZDRlOGE0YWZiY2Y2MGRhNjU0NDc1NGRjY2QifQ%3D%3D; expires=Mon, 10-Aug-2020 14:42:04 GMT; Max-Age=7200; path=/"
+								},
+								{
+									"key": "Set-Cookie",
+									"value": "laravel_session=eyJpdiI6InhUd0RKZDVKcEpLUzdpUEs0V21FTFE9PSIsInZhbHVlIjoidE5xelNNZmVjd3BibnBWbnVzcGdJZHlZNEtyS2VlUEZDWWJPa2l0bWh3Y2NwWW9zRmpcL0V4Tkw4Z2p6RzVZYTIiLCJtYWMiOiJkNzNiYjhmYTYxM2E3MWVmOGYwOGQzNTMxYmM4MDkwNTA5ZDdkMzUzNzE5ZWExNGYwOWMwMTUyZTUxNWY2MGQyIn0%3D; expires=Mon, 10-Aug-2020 14:42:04 GMT; Max-Age=7200; path=/; httponly"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": true,\n    \"data\": [\n        {\n            \"status\": \"archived\",\n            \"total\": 4\n        },\n        {\n            \"status\": \"pre_validated\",\n            \"total\": 94\n        },\n        {\n            \"status\": \"rejected\",\n            \"total\": 5\n        },\n        {\n            \"status\": \"validated\",\n            \"total\": 1\n        }\n    ]\n}"
+						}
+					]
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "NewsCount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/review/review/count",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"review",
+						"review",
+						"count"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "NewsCount",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/review/count?status=pre_validation",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"review",
+								"count"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "pre_validation"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:45:50 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:45:50 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6IkU0aW5KQWhmVUs1NnpEelRwUGpRV1E9PSIsInZhbHVlIjoibzBmSm0rRWwrSEQrZDdFOFZkckRGU2JaNEZyZ3lTZmlNb0RvUWR5REEzTVJkZnIxR0x4cE5ISkM0bWVqaWZKdCIsIm1hYyI6IjExNTEwM2JkYWY5ZTQ1MjA4MjA0MDRjMTNmMjBiNjFjYjFiMmQxMWVmMmFiODQ4ODE3NGViN2VmZTc3NTMwMWEifQ%3D%3D; expires=Mon, 10-Aug-2020 14:45:50 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6ImFSaUlXb2huWHJlYm50Mmg2TFo3blE9PSIsInZhbHVlIjoiamh4TUV6dkc1ZXRcL1IrWnRYN2U3YlJiOFRhUnFnV1B5M2JcLzhlQlZHQ1ZrYTNNdVUwQUJUenRIXC9jQlFtTlBHOSIsIm1hYyI6IjQwYzM4YmFiNmU5MTIzMDc2ZWI2NTI3OTg1ZGRkYTIyZjM0MzhhODhlZjI1Y2ZhYTNiN2U0NzhjY2IwMjBmZGUifQ%3D%3D; expires=Mon, 10-Aug-2020 14:45:50 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"news_id\": 3,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"pre_validation\",\n            \"media_thumbnail\": null,\n            \"review_id\": 3,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047067.jpg\",\n            \"review_reaction\": []\n        }\n    ],\n    \"status\": true\n}"
+				},
+				{
+					"name": "NewsCount",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/review/count?status=pre_validation",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"review",
+								"count"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "pre_validation"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:45:50 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:45:50 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6IkU0aW5KQWhmVUs1NnpEelRwUGpRV1E9PSIsInZhbHVlIjoibzBmSm0rRWwrSEQrZDdFOFZkckRGU2JaNEZyZ3lTZmlNb0RvUWR5REEzTVJkZnIxR0x4cE5ISkM0bWVqaWZKdCIsIm1hYyI6IjExNTEwM2JkYWY5ZTQ1MjA4MjA0MDRjMTNmMjBiNjFjYjFiMmQxMWVmMmFiODQ4ODE3NGViN2VmZTc3NTMwMWEifQ%3D%3D; expires=Mon, 10-Aug-2020 14:45:50 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6ImFSaUlXb2huWHJlYm50Mmg2TFo3blE9PSIsInZhbHVlIjoiamh4TUV6dkc1ZXRcL1IrWnRYN2U3YlJiOFRhUnFnV1B5M2JcLzhlQlZHQ1ZrYTNNdVUwQUJUenRIXC9jQlFtTlBHOSIsIm1hYyI6IjQwYzM4YmFiNmU5MTIzMDc2ZWI2NTI3OTg1ZGRkYTIyZjM0MzhhODhlZjI1Y2ZhYTNiN2U0NzhjY2IwMjBmZGUifQ%3D%3D; expires=Mon, 10-Aug-2020 14:45:50 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"news_id\": 3,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"pre_validation\",\n            \"media_thumbnail\": null,\n            \"review_id\": 3,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047067.jpg\",\n            \"review_reaction\": []\n        }\n    ],\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Review Of a News",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/review/getnewsreview/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"review",
+						"getnewsreview",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Review Of a News",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/getnews/review?news_id=2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"getnews",
+								"review"
+							],
+							"query": [
+								{
+									"key": "news_id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:51:40 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:51:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImhJUjhyeit5NzE3MTFtd2hQYUtzTnc9PSIsInZhbHVlIjoiUENLR3BLMTNOVEg1UGdSWnV0UjFFSVBBRVdBT3BxM2pcL0p2UEphakV3eGRnaHRWcHRmMnZCWUZ1ZXlIenFJOVIiLCJtYWMiOiI5YmMyYjdlMjczYzBhMTVmYjZlOGNkNTZjNDQxOTE5YTVhNjJjZGRmMzhiNWM3YWUzMDFjYTA5YzI4MzkzY2I1In0%3D; expires=Mon, 10-Aug-2020 14:51:40 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IllOd3F0NkJJdzk3Z3c1UTNxVVpjVWc9PSIsInZhbHVlIjoiUERxYnNkQjUrRTdvMVBlTVdRWGsyWEtxbVo1WmpzQytYbFJ4MzJtNmIxd3d3am1jOFFDMStoVE1vRnp6ajRrayIsIm1hYyI6IjlhOGVlNTc1MjFkZTNkMjczZjQzNDdlNDVlOTViMGE3Y2Y4YmY3OWZhM2NmZjBlNGNjNzZlNTdhYTMzMTFjNTQifQ%3D%3D; expires=Mon, 10-Aug-2020 14:51:40 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"news\": {\n                \"news_id\": 2,\n                \"title\": \"Updated bn\",\n                \"header\": \"This is Updating\",\n                \"description\": \"News updatin is in process\",\n                \"status\": \"validated\",\n                \"media_thumbnail\": null,\n                \"review_id\": 2,\n                \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047053.jpg\",\n                \"review_reaction\": [\n                    {\n                        \"reviewable_id\": 2,\n                        \"review_bad\": 1,\n                        \"review_average\": 1,\n                        \"review_good\": 1\n                    }\n                ]\n            },\n            \"review_id\": 1,\n            \"review_text\": null,\n            \"review_reaction\": \"2\",\n            \"is_visible\": 1,\n            \"reviewed_by\": {\n                \"user_id\": 1,\n                \"full_name\": \" \",\n                \"fname\": null,\n                \"lname\": null,\n                \"email\": \"anuragsingh9999999@gmail.com\",\n                \"role\": \"M0\"\n            }\n        },\n        {\n            \"news\": {\n                \"news_id\": 2,\n                \"title\": \"Updated bn\",\n                \"header\": \"This is Updating\",\n                \"description\": \"News updatin is in process\",\n                \"status\": \"validated\",\n                \"media_thumbnail\": null,\n                \"review_id\": 2,\n                \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047053.jpg\",\n                \"review_reaction\": [\n                    {\n                        \"reviewable_id\": 2,\n                        \"review_bad\": 1,\n                        \"review_average\": 1,\n                        \"review_good\": 1\n                    }\n                ]\n            },\n            \"review_id\": 2,\n            \"review_text\": null,\n            \"review_reaction\": \"0\",\n            \"is_visible\": 1,\n            \"reviewed_by\": {\n                \"user_id\": 1,\n                \"full_name\": \" \",\n                \"fname\": null,\n                \"lname\": null,\n                \"email\": \"anuragsingh9999999@gmail.com\",\n                \"role\": \"M0\"\n            }\n        },\n        {\n            \"news\": {\n                \"news_id\": 2,\n                \"title\": \"Updated bn\",\n                \"header\": \"This is Updating\",\n                \"description\": \"News updatin is in process\",\n                \"status\": \"validated\",\n                \"media_thumbnail\": null,\n                \"review_id\": 2,\n                \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047053.jpg\",\n                \"review_reaction\": [\n                    {\n                        \"reviewable_id\": 2,\n                        \"review_bad\": 1,\n                        \"review_average\": 1,\n                        \"review_good\": 1\n                    }\n                ]\n            },\n            \"review_id\": 3,\n            \"review_text\": null,\n            \"review_reaction\": \"1\",\n            \"is_visible\": 1,\n            \"reviewed_by\": {\n                \"user_id\": 1,\n                \"full_name\": \" \",\n                \"fname\": null,\n                \"lname\": null,\n                \"email\": \"anuragsingh9999999@gmail.com\",\n                \"role\": \"M0\"\n            }\n        }\n    ],\n    \"status\": true\n}"
+				},
+				{
+					"name": "Review Of a News",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/getnews/review?news_id=2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"getnews",
+								"review"
+							],
+							"query": [
+								{
+									"key": "news_id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:51:40 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:51:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImhJUjhyeit5NzE3MTFtd2hQYUtzTnc9PSIsInZhbHVlIjoiUENLR3BLMTNOVEg1UGdSWnV0UjFFSVBBRVdBT3BxM2pcL0p2UEphakV3eGRnaHRWcHRmMnZCWUZ1ZXlIenFJOVIiLCJtYWMiOiI5YmMyYjdlMjczYzBhMTVmYjZlOGNkNTZjNDQxOTE5YTVhNjJjZGRmMzhiNWM3YWUzMDFjYTA5YzI4MzkzY2I1In0%3D; expires=Mon, 10-Aug-2020 14:51:40 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IllOd3F0NkJJdzk3Z3c1UTNxVVpjVWc9PSIsInZhbHVlIjoiUERxYnNkQjUrRTdvMVBlTVdRWGsyWEtxbVo1WmpzQytYbFJ4MzJtNmIxd3d3am1jOFFDMStoVE1vRnp6ajRrayIsIm1hYyI6IjlhOGVlNTc1MjFkZTNkMjczZjQzNDdlNDVlOTViMGE3Y2Y4YmY3OWZhM2NmZjBlNGNjNzZlNTdhYTMzMTFjNTQifQ%3D%3D; expires=Mon, 10-Aug-2020 14:51:40 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"news\": {\n                \"news_id\": 2,\n                \"title\": \"Updated bn\",\n                \"header\": \"This is Updating\",\n                \"description\": \"News updatin is in process\",\n                \"status\": \"validated\",\n                \"media_thumbnail\": null,\n                \"review_id\": 2,\n                \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047053.jpg\",\n                \"review_reaction\": [\n                    {\n                        \"reviewable_id\": 2,\n                        \"review_bad\": 1,\n                        \"review_average\": 1,\n                        \"review_good\": 1\n                    }\n                ]\n            },\n            \"review_id\": 1,\n            \"review_text\": null,\n            \"review_reaction\": \"2\",\n            \"is_visible\": 1,\n            \"reviewed_by\": {\n                \"user_id\": 1,\n                \"full_name\": \" \",\n                \"fname\": null,\n                \"lname\": null,\n                \"email\": \"anuragsingh9999999@gmail.com\",\n                \"role\": \"M0\"\n            }\n        },\n        {\n            \"news\": {\n                \"news_id\": 2,\n                \"title\": \"Updated bn\",\n                \"header\": \"This is Updating\",\n                \"description\": \"News updatin is in process\",\n                \"status\": \"validated\",\n                \"media_thumbnail\": null,\n                \"review_id\": 2,\n                \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047053.jpg\",\n                \"review_reaction\": [\n                    {\n                        \"reviewable_id\": 2,\n                        \"review_bad\": 1,\n                        \"review_average\": 1,\n                        \"review_good\": 1\n                    }\n                ]\n            },\n            \"review_id\": 2,\n            \"review_text\": null,\n            \"review_reaction\": \"0\",\n            \"is_visible\": 1,\n            \"reviewed_by\": {\n                \"user_id\": 1,\n                \"full_name\": \" \",\n                \"fname\": null,\n                \"lname\": null,\n                \"email\": \"anuragsingh9999999@gmail.com\",\n                \"role\": \"M0\"\n            }\n        },\n        {\n            \"news\": {\n                \"news_id\": 2,\n                \"title\": \"Updated bn\",\n                \"header\": \"This is Updating\",\n                \"description\": \"News updatin is in process\",\n                \"status\": \"validated\",\n                \"media_thumbnail\": null,\n                \"review_id\": 2,\n                \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047053.jpg\",\n                \"review_reaction\": [\n                    {\n                        \"reviewable_id\": 2,\n                        \"review_bad\": 1,\n                        \"review_average\": 1,\n                        \"review_good\": 1\n                    }\n                ]\n            },\n            \"review_id\": 3,\n            \"review_text\": null,\n            \"review_reaction\": \"1\",\n            \"is_visible\": 1,\n            \"reviewed_by\": {\n                \"user_id\": 1,\n                \"full_name\": \" \",\n                \"fname\": null,\n                \"lname\": null,\n                \"email\": \"anuragsingh9999999@gmail.com\",\n                \"role\": \"M0\"\n            }\n        }\n    ],\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Review",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "review_reaction",
+							"value": " 2",
+							"type": "text"
+						},
+						{
+							"key": "news_id",
+							"value": "2",
+							"type": "text"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/review/review/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"review",
+						"review",
+						"create"
+					],
+					"query": [
+						{
+							"key": "new_id",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create Review",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "review_reaction",
+									"value": " 0",
+									"type": "text"
+								},
+								{
+									"key": "news_id",
+									"value": "40",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/review/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"review",
+								"create"
+							],
+							"query": [
+								{
+									"key": "new_id",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:53:27 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:53:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImEydHBIRVJ6bGRKdld4bm1adktrM3c9PSIsInZhbHVlIjoid0d3SVBuTndBMUNINm5MSnlQeUZnVlFTRkRuTTN2YVFmYU1rS1VuOVlNb2xyS04xWHB6cUgreVI3K2VHbVRjOCIsIm1hYyI6IjlkYmNmMzJkODM3OTkzODU3MzFlODg0NjA4MGJmNTA2YWFjNzdmYmU2N2UxZTVlNzBhNzAwMWFjNDE0MGJhNWMifQ%3D%3D; expires=Mon, 10-Aug-2020 14:53:27 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IjV1UUx4eXN0MnVqZFwvUGtUOENtcCtnPT0iLCJ2YWx1ZSI6IlwvTm15WkdmS0c0TzcrbitMczFYd3Q5TGNTazMwd29zelZWNTAzYWpTaGV5WWp2clFGZUo4VjR6K3BlS01YR3daIiwibWFjIjoiMmUzYWU0M2ViMGQ0NjJjOWVjOGU4M2UyNTJkNGEwMDU2OTcxYWUxM2FmMjg4OTc4YjBjYTNkY2Y1MzgwNDkwNiJ9; expires=Mon, 10-Aug-2020 14:53:27 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"news\": {\n            \"news_id\": 40,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"rejected\",\n            \"media_thumbnail\": null,\n            \"review_id\": 40,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596872076.jpg\",\n            \"review_reaction\": [\n                {\n                    \"reviewable_id\": 40,\n                    \"review_bad\": 3,\n                    \"review_average\": 1,\n                    \"review_good\": 1\n                }\n            ]\n        },\n        \"review_id\": 9,\n        \"review_text\": null,\n        \"review_reaction\": \"0\",\n        \"is_visible\": 1,\n        \"reviewed_by\": {\n            \"user_id\": 1,\n            \"full_name\": \" \",\n            \"fname\": null,\n            \"lname\": null,\n            \"email\": \"anuragsingh9999999@gmail.com\",\n            \"role\": \"M0\"\n        }\n    },\n    \"status\": true\n}"
+				},
+				{
+					"name": "Create Review",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "review_reaction",
+									"value": " 0",
+									"type": "text"
+								},
+								{
+									"key": "news_id",
+									"value": "40",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/review/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"review",
+								"create"
+							],
+							"query": [
+								{
+									"key": "new_id",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:53:27 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:53:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImEydHBIRVJ6bGRKdld4bm1adktrM3c9PSIsInZhbHVlIjoid0d3SVBuTndBMUNINm5MSnlQeUZnVlFTRkRuTTN2YVFmYU1rS1VuOVlNb2xyS04xWHB6cUgreVI3K2VHbVRjOCIsIm1hYyI6IjlkYmNmMzJkODM3OTkzODU3MzFlODg0NjA4MGJmNTA2YWFjNzdmYmU2N2UxZTVlNzBhNzAwMWFjNDE0MGJhNWMifQ%3D%3D; expires=Mon, 10-Aug-2020 14:53:27 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IjV1UUx4eXN0MnVqZFwvUGtUOENtcCtnPT0iLCJ2YWx1ZSI6IlwvTm15WkdmS0c0TzcrbitMczFYd3Q5TGNTazMwd29zelZWNTAzYWpTaGV5WWp2clFGZUo4VjR6K3BlS01YR3daIiwibWFjIjoiMmUzYWU0M2ViMGQ0NjJjOWVjOGU4M2UyNTJkNGEwMDU2OTcxYWUxM2FmMjg4OTc4YjBjYTNkY2Y1MzgwNDkwNiJ9; expires=Mon, 10-Aug-2020 14:53:27 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"news\": {\n            \"news_id\": 40,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"rejected\",\n            \"media_thumbnail\": null,\n            \"review_id\": 40,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596872076.jpg\",\n            \"review_reaction\": [\n                {\n                    \"reviewable_id\": 40,\n                    \"review_bad\": 3,\n                    \"review_average\": 1,\n                    \"review_good\": 1\n                }\n            ]\n        },\n        \"review_id\": 9,\n        \"review_text\": null,\n        \"review_reaction\": \"0\",\n        \"is_visible\": 1,\n        \"reviewed_by\": {\n            \"user_id\": 1,\n            \"full_name\": \" \",\n            \"fname\": null,\n            \"lname\": null,\n            \"email\": \"anuragsingh9999999@gmail.com\",\n            \"role\": \"M0\"\n        }\n    },\n    \"status\": true\n}"
+				},
+				{
+					"name": "Create Review",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "review_reaction",
+									"value": " 0",
+									"type": "text"
+								},
+								{
+									"key": "news_id",
+									"value": "40",
+									"type": "text"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/review/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"review",
+								"create"
+							],
+							"query": [
+								{
+									"key": "new_id",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:53:27 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:53:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImEydHBIRVJ6bGRKdld4bm1adktrM3c9PSIsInZhbHVlIjoid0d3SVBuTndBMUNINm5MSnlQeUZnVlFTRkRuTTN2YVFmYU1rS1VuOVlNb2xyS04xWHB6cUgreVI3K2VHbVRjOCIsIm1hYyI6IjlkYmNmMzJkODM3OTkzODU3MzFlODg0NjA4MGJmNTA2YWFjNzdmYmU2N2UxZTVlNzBhNzAwMWFjNDE0MGJhNWMifQ%3D%3D; expires=Mon, 10-Aug-2020 14:53:27 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IjV1UUx4eXN0MnVqZFwvUGtUOENtcCtnPT0iLCJ2YWx1ZSI6IlwvTm15WkdmS0c0TzcrbitMczFYd3Q5TGNTazMwd29zelZWNTAzYWpTaGV5WWp2clFGZUo4VjR6K3BlS01YR3daIiwibWFjIjoiMmUzYWU0M2ViMGQ0NjJjOWVjOGU4M2UyNTJkNGEwMDU2OTcxYWUxM2FmMjg4OTc4YjBjYTNkY2Y1MzgwNDkwNiJ9; expires=Mon, 10-Aug-2020 14:53:27 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"news\": {\n            \"news_id\": 40,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"rejected\",\n            \"media_thumbnail\": null,\n            \"review_id\": 40,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596872076.jpg\",\n            \"review_reaction\": [\n                {\n                    \"reviewable_id\": 40,\n                    \"review_bad\": 3,\n                    \"review_average\": 1,\n                    \"review_good\": 1\n                }\n            ]\n        },\n        \"review_id\": 9,\n        \"review_text\": null,\n        \"review_reaction\": \"0\",\n        \"is_visible\": 1,\n        \"reviewed_by\": {\n            \"user_id\": 1,\n            \"full_name\": \" \",\n            \"fname\": null,\n            \"lname\": null,\n            \"email\": \"anuragsingh9999999@gmail.com\",\n            \"role\": \"M0\"\n        }\n    },\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "Create News",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "annns   ingh sdf",
+							"type": "text"
+						},
+						{
+							"key": "header",
+							"value": "Todays Headlinegg fggg d",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "Corona Virus spreds Globaly ",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "pre_validated",
+							"type": "text"
+						},
+						{
+							"key": "created_by",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "media_type",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "media_url",
+							"value": "https://stock.adobe.com/in/images/people-demonstrating-against-police-violence/352580469",
+							"type": "text"
+						},
+						{
+							"key": "media_thumbnail",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "media_blob",
+							"type": "file",
+							"src": "/F:/budiya mayii/IMG-20190620-WA0009.jpg"
+						}
+					],
+					"options": {
+						"formdata": {}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/add?title=Corona hifgg&header=Todays Headlinegg fggg dgdgddsf&description=Corona Virus spreds Globaly &status=pre_validated&media_blob",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"add"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Corona hifgg"
+						},
+						{
+							"key": "header",
+							"value": "Todays Headlinegg fggg dgdgddsf"
+						},
+						{
+							"key": "description",
+							"value": "Corona Virus spreds Globaly "
+						},
+						{
+							"key": "status",
+							"value": "pre_validated"
+						},
+						{
+							"key": "created_by",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "media_type",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "media_url",
+							"value": "https://www.youtube.com/watch?v=HGoT7pDfPUE",
+							"disabled": true
+						},
+						{
+							"key": "media_thumbnail",
+							"value": "dgsgdgdgsd.jpg",
+							"disabled": true
+						},
+						{
+							"key": "media_blob",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create News",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "annns   ingh sdf",
+									"type": "text"
+								},
+								{
+									"key": "header",
+									"value": "Todays Headlinegg fggg d",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "Corona Virus spreds Globaly ",
+									"type": "text"
+								},
+								{
+									"key": "status",
+									"value": "pre_validated",
+									"type": "text"
+								},
+								{
+									"key": "created_by",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "media_type",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "media_url",
+									"value": "https://stock.adobe.com/in/images/people-demonstrating-against-police-violence/352580469",
+									"type": "text"
+								},
+								{
+									"key": "media_thumbnail",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "media_blob",
+									"type": "file",
+									"src": "/F:/budiya mayii/IMG-20190620-WA0009.jpg"
+								}
+							],
+							"options": {
+								"formdata": {}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/add?title=Corona hifgg&header=Todays Headlinegg fggg dgdgddsf&description=Corona Virus spreds Globaly &status=pre_validated&media_blob",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"add"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Corona hifgg"
+								},
+								{
+									"key": "header",
+									"value": "Todays Headlinegg fggg dgdgddsf"
+								},
+								{
+									"key": "description",
+									"value": "Corona Virus spreds Globaly "
+								},
+								{
+									"key": "status",
+									"value": "pre_validated"
+								},
+								{
+									"key": "created_by",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "media_type",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "media_url",
+									"value": "https://www.youtube.com/watch?v=HGoT7pDfPUE",
+									"disabled": true
+								},
+								{
+									"key": "media_thumbnail",
+									"value": "dgsgdgdgsd.jpg",
+									"disabled": true
+								},
+								{
+									"key": "media_blob",
+									"value": null
+								}
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:54:04 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:54:04 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImJyTXZRTVwvb3JvTFZDakFzY2poaFBnPT0iLCJ2YWx1ZSI6InFKcXZpWHVkeEMrTm9xOW9oc1wvZDRlZ0R0QmtiM2lVa3ltbnNGdWo3N1dHU3BZUCtkSmxwZjlQcE01QTR0Z282IiwibWFjIjoiMzk3ZGUxOWM2ZjY3N2QzM2VjZDk2MDUyODcyZjZhZDIyYTAwYTc5YzI5ODI5NmZlOTE2MjFkZjUxMGI1MmNmMyJ9; expires=Mon, 10-Aug-2020 14:54:04 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6InVcLzdzamNIV3lhZnRUZ01UN1VWYXBBPT0iLCJ2YWx1ZSI6ImJLVFFtYWNLREVQREJXMlYyR0V5UFwvN216K1hRRkh4SXpZQjZVNWVvenpJa0xyK3Z2amJYYUNEOVBjUXBWbjNvIiwibWFjIjoiYWM1ZDNkZDgzYWU1YzgwMDY2ODhmZDk0ZDg0MzE2MjIzZDY1ZjE2OTM0MTU3NzhkOGY4MjQxZDdhODc2NjQwYiJ9; expires=Mon, 10-Aug-2020 14:54:04 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"news_id\": 114,\n        \"title\": \"annns   ingh sdf\",\n        \"header\": \"Todays Headlinegg fggg d\",\n        \"description\": \"Corona Virus spreds Globaly\",\n        \"status\": \"pre_validated\",\n        \"media_thumbnail\": null,\n        \"review_id\": 114,\n        \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597064040.jpg\",\n        \"review_reaction\": []\n    },\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "News Transition with news_letter",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/transition?news_id=2&transition_name=send&newsLetter=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"transition"
+					],
+					"query": [
+						{
+							"key": "news_id",
+							"value": "2"
+						},
+						{
+							"key": "transition_name",
+							"value": "send"
+						},
+						{
+							"key": "newsLetter",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "News Transition with news_letter",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/transition?news_id=2&transition_name=to_editorial&newsLetter=1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"transition"
+							],
+							"query": [
+								{
+									"key": "news_id",
+									"value": "2"
+								},
+								{
+									"key": "transition_name",
+									"value": "to_editorial"
+								},
+								{
+									"key": "newsLetter",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:56:17 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:56:17 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImRtbVlVeldEa2NhWDhIQjJZdklyd0E9PSIsInZhbHVlIjoiV2paYjRralFyYVVyZDhyWlNlTkhzZkRyYlUzUWpYZjhtNzkxV0FiR3lFSzBGXC9Lb1gxUU9URVwvNE9tOWFIOGszIiwibWFjIjoiODM5OTEwMGFiNjdhZTRjN2IzNjEyOTNlMWY1YTYyMmY1NGQ5Y2Q5N2IzZWMxNTllZjI1NTZlZmI4MDJlNDMzNiJ9; expires=Mon, 10-Aug-2020 14:56:17 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6ImVhaVlDYUxjVVBRWVZyaHFkSVV5SGc9PSIsInZhbHVlIjoia2lSQUx6OUErTzBaMytDQ0U4N2FKTXJTeFl4anNRZ3pVbDlJWURuc3RqU2RCV2xNTkxxcjdBZVwvR1FmcWo0VUMiLCJtYWMiOiI0ZjJkYTNjMjBlODY0YTRiYzY4MmFkMDEwYTQ4YjEzMzgzMTQ5MjM2YTQzOWQ0NTFlNDg0NDRmYzdkMzdjNWZiIn0%3D; expires=Mon, 10-Aug-2020 14:56:17 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"news_id\": 2,\n        \"title\": \"Updated bn\",\n        \"header\": \"This is Updating\",\n        \"description\": \"News updatin is in process\",\n        \"status\": \"editorial_committee\",\n        \"media_thumbnail\": null,\n        \"review_id\": 2,\n        \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597047053.jpg\",\n        \"review_reaction\": [\n            {\n                \"reviewable_id\": 2,\n                \"review_bad\": 1,\n                \"review_average\": 1,\n                \"review_good\": 1\n            }\n        ]\n    },\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "News with Newsletter",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/newswith/newsLetter?news_id=2&newsLetter_id=2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"newswith",
+						"newsLetter"
+					],
+					"query": [
+						{
+							"key": "news_id",
+							"value": "2"
+						},
+						{
+							"key": "newsLetter_id",
+							"value": "2"
+						},
+						{
+							"key": "status",
+							"value": "validated",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "News with Newsletter",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/newswith/newsLetter?news_id=1&newsLetter_id=2",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"newswith",
+								"newsLetter"
+							],
+							"query": [
+								{
+									"key": "news_id",
+									"value": "1"
+								},
+								{
+									"key": "newsLetter_id",
+									"value": "2"
+								},
+								{
+									"key": "status",
+									"value": "validated",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:01:37 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:01:37 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6ImNSWnVTTkdsSWZxOGZkQ1hHZ2plMHc9PSIsInZhbHVlIjoiUGdvWUxmV0dpeVV5NVR6aGlGUmx2cG5wRm9wVldUVVk3QU1hamE1QU9XMklmUjhrRnFNaVNNMFhJUW5hZEEwaCIsIm1hYyI6ImU5MTk3MzkwNzI1N2JlMzY0MTU2NmM4NmVkMWMyNTE3ZTU4ZTBhYjZmZTQ0YmYxNWNiNTU3NzhkZDc2NmFiMzQifQ%3D%3D; expires=Mon, 10-Aug-2020 15:01:37 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IkZMaUlSWVFCbkJXUSs1aE82SXZFSnc9PSIsInZhbHVlIjoiZU5BWDZKeEMzcUVyNUU4c3piVFM2YWFEWEtRempNS0dydmVQVmVwM1NCRUg3QjVCSXhZOW1yR1lqVm1DWkxkVyIsIm1hYyI6ImUzMmI4MDJlMTE1OWQ2NWFiMjdjYmEzZjJmY2VhNjNmMDZlODUxMDA1YTczM2VmMTk4ZDQ5YmM4NjMzOGM5MjQifQ%3D%3D; expires=Mon, 10-Aug-2020 15:01:37 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"title\": \"Updated bn\",\n    \"header\": \"This is Updating\",\n    \"description\": \"News updatin is in process\",\n    \"status\": \"validated\",\n    \"created_by\": 1,\n    \"media_type\": 1,\n    \"media_url\": \"public/1597046808.jpg\",\n    \"media_thumbnail\": null,\n    \"is_send_with_newsletter\": 0,\n    \"created_at\": null,\n    \"updated_at\": \"2020-08-10 08:06:52\",\n    \"deleted_at\": null\n}"
+				}
+			]
+		},
+		{
+			"name": "Aws fileupload",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "filePath",
+							"value": "public",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/F:/bday pic 2019/IMG_20191014_171855.jpg"
+						},
+						{
+							"key": "visibility",
+							"value": "public",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/fileupload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"fileupload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AWS filepreview",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file_path",
+							"value": "public/Na1ilyIgV09qKO6y0ypzaQdXBR3pCsG579RHVpqV.jpeg",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "file_name",
+							"value": "IMG_20191014_171855.jpg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/filedownload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"filedownload"
+					],
+					"query": [
+						{
+							"key": "file_path ",
+							"value": "public/Na1ilyIgV09qKO6y0ypzaQdXBR3pCsG579RHVpqV.jpeg",
+							"disabled": true
+						},
+						{
+							"key": "type",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "file_name",
+							"value": "IMG_20191014_171855.jpg",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AWS filedownload core",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file_path",
+							"value": "public/4eXFApQipii02t6MJefLK0BUCvzfkHYU8Gw5yuUr.jpeg",
+							"type": "text"
+						},
+						{
+							"key": "type",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "file_name",
+							"value": "IMG_20191014_171855.jpg",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/aws/filedownload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"aws",
+						"filedownload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AWS fileupload core",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "filePath",
+							"value": "public",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/F:/budiya mayii/IMG-20190620-WA0002.jpg"
+						},
+						{
+							"key": "visibility",
+							"value": "public",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/aws/fileupload",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"aws",
+						"fileupload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update News ",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "Updated bn",
+							"type": "text"
+						},
+						{
+							"key": "header",
+							"value": "This is Updating",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "News updatin is in process",
+							"type": "text"
+						},
+						{
+							"key": "media_type",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "media_url",
+							"value": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "media_blob",
+							"type": "file",
+							"src": "/F:/budiya mayii/IMG-20190620-WA0008.jpg"
+						},
+						{
+							"key": "news_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "_method",
+							"value": "PUT",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/update",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"update"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update News ",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "Updated the news",
+									"type": "text"
+								},
+								{
+									"key": "header",
+									"value": "This is Updating bn",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "News updatin is in process bn",
+									"type": "text"
+								},
+								{
+									"key": "media_type",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "media_url",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "media_blob",
+									"type": "file",
+									"src": "/F:/budiya mayii/IMG-20190620-WA0016.jpg"
+								},
+								{
+									"key": "news_id",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "_method",
+									"value": "PUT",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/update",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"update"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:04:16 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:04:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6IkljOFZcL1JMY21zKzhGY01MMzQ2WXh3PT0iLCJ2YWx1ZSI6IjZPKzh1alhKYkNRbUlwYTJhYmpDaXhycDVkWHZaVWgxXC9HdXhiMmZQNTlnY0tRYW9rbzRPZjltb2MrTTZUZmNNIiwibWFjIjoiZDZjM2RlYmMzOWYxZDI2MjVhMTE3YTk2NjBlMGY0MDNjMzIwNjU4M2RmNGQ5ZmI5ODdiZGVmMDUyN2Q5M2IxMSJ9; expires=Mon, 10-Aug-2020 15:04:16 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IkZkNDR2eDdTSnJ6UGN1cnVSYkl6b2c9PSIsInZhbHVlIjoiSEZxMmh1cEhMSVZSXC9cLzBwa0FSYjFsXC82QWhQNWhYaVVNQUN2cElUOThTVGFJVU92UjJ4Z0lVTFwvTE4rRTV5akEiLCJtYWMiOiI2YzFlNGI0MDY2ZjIzNTQ0ZjYzZWRmMWI1MThhMTViYzhkZGI5N2FkOTg2NGYxM2QyNDIxOTQzZWNmMGM4NmU3In0%3D; expires=Mon, 10-Aug-2020 15:04:16 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": {\n        \"news_id\": 7,\n        \"title\": \"Updated the news\",\n        \"header\": \"This is Updating bn\",\n        \"description\": \"News updatin is in process bn\",\n        \"status\": \"pre_validated\",\n        \"media_thumbnail\": null,\n        \"review_id\": 7,\n        \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597064649.jpg\",\n        \"review_reaction\": []\n    },\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "review/count",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/review/review/count?status=pre_validated",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"review",
+						"review",
+						"count"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "pre_validated"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "review/count",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/review/count?status=pre_validated",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"review",
+								"count"
+							],
+							"query": [
+								{
+									"key": "status",
+									"value": "pre_validated"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 11:57:58 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 11:57:58 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6Ik91ZmdzbzJza1wvV2JjcEdSWWl4UFFRPT0iLCJ2YWx1ZSI6ImJNZnl3SzNLckxXRFFmRUJGaEdZUEZ2RHhwUTFJWDlvS3h0TkZzeWQ2ZjJrWlJ3Tlp2QzdBVjBFcjZWRTd5dnoiLCJtYWMiOiI2OTcyNDVkMTM0YTNjODlmYjA0ZDY4YWVkMDZkOTQzMGNkZjJiYzcyNmE1YTBhN2I5NzZiMDFlNzczYTRjYmJhIn0%3D; expires=Mon, 10-Aug-2020 13:57:58 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IktKbkFNVklkb2xkK0Z1RWp0TUloeUE9PSIsInZhbHVlIjoianltVVVQdXF5SE03MzhBamxBYWhVOXB4M3U1SHhwVkErQzN3ZTRidHhQR0FGMlpiUkJjQUMxbEd3UkhBdlUxYiIsIm1hYyI6Ijg2MzEyNjg2ODc3OTEwZjRmMGUwZmE2MDdjZTI1ODc3YWRjODQ0ZDZmMDVhNmY3Y2ExMjcyMDVmYWUwNjBkYTQifQ%3D%3D; expires=Mon, 10-Aug-2020 13:57:58 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"news_id\": 4,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headline\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": \"dgsgdgdgsd.jpg\",\n            \"review_id\": 4,\n            \"media_url\": null,\n            \"review_reaction\": [\n                {\n                    \"reviewable_id\": 4,\n                    \"review_bad\": 0,\n                    \"review_average\": 1,\n                    \"review_good\": 0\n                }\n            ]\n        },\n        {\n            \"news_id\": 5,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": \"dgsgdgdgsd.jpg\",\n            \"review_id\": 5,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 6,\n            \"title\": \"Updated bn n\",\n            \"header\": \"This is Updating bn\",\n            \"description\": \"News updatin is in process bn\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 6,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597049441.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 7,\n            \"title\": \"Updated bn n\",\n            \"header\": \"This is Updating bn\",\n            \"description\": \"News updatin is in process bn\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 7,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1597049981.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 8,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 8,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 9,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 9,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 10,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 10,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 11,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 11,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 13,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 13,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596712427.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 15,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 15,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596714097.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 17,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 17,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596715084.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 18,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 18,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596715203.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 19,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 19,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596715245.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 20,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 20,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596715558.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 22,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 22,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596717584.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 23,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 23,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596717701.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 24,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 24,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596717728.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 25,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 25,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596718515.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 27,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 27,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596718582.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 28,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 28,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 30,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 30,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 31,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 31,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596729670.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 37,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 37,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596783414.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 38,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 38,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596788618.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 41,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 41,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 42,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 42,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 43,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 43,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 44,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 44,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 45,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 45,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 46,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 46,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 47,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 47,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 48,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 48,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 49,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 49,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596886239.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 50,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 50,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 51,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 51,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 52,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 52,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 53,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 53,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 54,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 54,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 55,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 55,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 56,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 56,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 57,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 57,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 58,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 58,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 59,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 59,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 60,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 60,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 61,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 61,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596894096.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 62,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 62,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 63,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 63,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596894296.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 64,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 64,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596894459.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 65,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 65,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 66,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 66,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 67,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 67,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 68,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 68,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 69,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 69,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 70,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 70,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 71,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 71,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 72,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 72,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 73,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 73,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596895591.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 74,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 74,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596895677.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 75,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 75,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 76,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 76,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596895712.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 77,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 77,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 78,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 78,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 79,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 79,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 80,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 80,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 81,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 81,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 82,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 82,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596895949.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 83,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 83,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 84,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 84,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596896101.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 85,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 85,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 86,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 86,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596896175.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 87,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 87,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 88,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 88,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596896239.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 89,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 89,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 90,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 90,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596896354.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 91,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 91,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 92,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 92,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596897074.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 93,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 93,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 94,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 94,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 95,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 95,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596897906.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 96,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 96,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 97,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 97,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 98,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 98,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596898352.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 99,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 99,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 100,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 100,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 101,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 101,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596898496.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 102,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 102,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596898534.jpg\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 103,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 103,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 104,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 104,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 105,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 105,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 106,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 106,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 107,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 107,\n            \"media_url\": null,\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 111,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 111,\n            \"media_url\": \"https://stock.adobe.com/in/images/people-demonstrating-against-police-violence/352580469\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 112,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 112,\n            \"media_url\": \"https://stock.adobe.com/in/images/people-demonstrating-against-police-violence/352580469\",\n            \"review_reaction\": []\n        },\n        {\n            \"news_id\": 113,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"media_thumbnail\": null,\n            \"review_id\": 113,\n            \"media_url\": \"https://aws-pebibits.s3.ap-south-1.amazonaws.com/public/1596899503.jpg\",\n            \"review_reaction\": []\n        }\n    ],\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "review/count/vissible",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/review/review/count/vissible",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"review",
+						"review",
+						"count",
+						"vissible"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "review/count/vissible",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/review/count/vissible",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"review",
+								"count",
+								"vissible"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:01:19 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 12:01:19 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6InpxbFNXeUdlWnFteUNxRHgxZm9OVUE9PSIsInZhbHVlIjoiNGdrSThlXC9ZVFJScVl6TFJTWnA5TjRpUnZtMnlJNVhLb2dzQkkwWWFOSVZIckJuWlVFdktvOTFabkc3b1FLeHciLCJtYWMiOiI0ZjdiZmYxZDU0ZDJhYTZmNmRhMDNjNTFjOWJiZmQ2ODg0NmM0ODZlN2I3ZTc4ZGZlN2Q4NWJhNTk3NWM5Mzg5In0%3D; expires=Mon, 10-Aug-2020 14:01:19 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6IkxyMXpMUzBnRiszRllDK3NxVzhOS0E9PSIsInZhbHVlIjoiMG9XOUMxS3UxNmlNbDhcL3ErUGFnbWtWaDBNU25id0hvMENySU5kSkpRdnNoU0NkRlNJbUlKQkZHVFhcLzMyT0xxIiwibWFjIjoiOGI5OGM4NjNiNjI2NzlmYWMyNDMxOWYyYzIxZjVjOGE1NzY0N2ZhZjRkYzlmMDI0MGZjNWQ5MzUzNzA0NjhlNyJ9; expires=Mon, 10-Aug-2020 14:01:19 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"news_id\": 1,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"validateds\",\n            \"review_id\": 1,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 2,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"validated\",\n            \"review_id\": 2,\n            \"reviewsCountByvisible\": [\n                {\n                    \"reviewable_id\": 2,\n                    \"review_bad\": 1,\n                    \"review_average\": 1,\n                    \"review_good\": 0\n                }\n            ]\n        },\n        {\n            \"news_id\": 3,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"pre_validation\",\n            \"review_id\": 3,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 4,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headline\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 4,\n            \"reviewsCountByvisible\": [\n                {\n                    \"reviewable_id\": 4,\n                    \"review_bad\": 1,\n                    \"review_average\": 0,\n                    \"review_good\": 0\n                }\n            ]\n        },\n        {\n            \"news_id\": 5,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 5,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 6,\n            \"title\": \"Updated bn n\",\n            \"header\": \"This is Updating bn\",\n            \"description\": \"News updatin is in process bn\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 6,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 7,\n            \"title\": \"Updated bn n\",\n            \"header\": \"This is Updating bn\",\n            \"description\": \"News updatin is in process bn\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 7,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 8,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 8,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 9,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 9,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 10,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 10,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 11,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 11,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 12,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"archived\",\n            \"review_id\": 12,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 13,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 13,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 14,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"archived\",\n            \"review_id\": 14,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 15,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 15,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 16,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"archived\",\n            \"review_id\": 16,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 17,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 17,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 18,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 18,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 19,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 19,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 20,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 20,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 21,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"archived\",\n            \"review_id\": 21,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 22,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 22,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 23,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 23,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 24,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 24,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 25,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 25,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 26,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"rejected\",\n            \"review_id\": 26,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 27,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 27,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 28,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 28,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 29,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"rejected\",\n            \"review_id\": 29,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 30,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 30,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 31,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 31,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 32,\n            \"title\": \"Corona hif\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"rejected\",\n            \"review_id\": 32,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 37,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 37,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 38,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 38,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 39,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"rejected\",\n            \"review_id\": 39,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 40,\n            \"title\": \"Updated bn\",\n            \"header\": \"This is Updating\",\n            \"description\": \"News updatin is in process\",\n            \"status\": \"rejected\",\n            \"review_id\": 40,\n            \"reviewsCountByvisible\": [\n                {\n                    \"reviewable_id\": 40,\n                    \"review_bad\": 1,\n                    \"review_average\": 1,\n                    \"review_good\": 0\n                }\n            ]\n        },\n        {\n            \"news_id\": 41,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 41,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 42,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 42,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 43,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 43,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 44,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 44,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 45,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 45,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 46,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 46,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 47,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 47,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 48,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 48,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 49,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 49,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 50,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 50,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 51,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 51,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 52,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 52,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 53,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 53,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 54,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 54,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 55,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 55,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 56,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 56,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 57,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 57,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 58,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 58,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 59,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 59,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 60,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 60,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 61,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 61,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 62,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 62,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 63,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 63,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 64,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 64,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 65,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 65,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 66,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 66,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 67,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 67,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 68,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 68,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 69,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 69,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 70,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 70,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 71,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 71,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 72,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 72,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 73,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 73,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 74,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 74,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 75,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 75,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 76,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 76,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 77,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 77,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 78,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 78,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 79,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 79,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 80,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 80,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 81,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 81,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 82,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 82,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 83,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 83,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 84,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 84,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 85,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 85,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 86,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 86,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 87,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 87,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 88,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 88,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 89,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 89,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 90,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 90,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 91,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 91,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 92,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 92,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 93,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 93,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 94,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 94,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 95,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 95,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 96,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 96,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 97,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 97,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 98,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 98,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 99,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 99,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 100,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 100,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 101,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 101,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 102,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 102,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 103,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 103,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 104,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 104,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 105,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 105,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 106,\n            \"title\": \"anurag singh ttt\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 106,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 107,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 107,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 111,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 111,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 112,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 112,\n            \"reviewsCountByvisible\": []\n        },\n        {\n            \"news_id\": 113,\n            \"title\": \"annns   ingh sdf\",\n            \"header\": \"Todays Headlinegg fggg d\",\n            \"description\": \"Corona Virus spreds Globaly\",\n            \"status\": \"pre_validated\",\n            \"review_id\": 113,\n            \"reviewsCountByvisible\": []\n        }\n    ],\n    \"status\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "checknews",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/newsletter/news/review/checknews?news_id=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"newsletter",
+						"news",
+						"review",
+						"checknews"
+					],
+					"query": [
+						{
+							"key": "news_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "checknews",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/checknews?news_id=1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"checknews"
+							],
+							"query": [
+								{
+									"key": "news_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:10:10 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:10:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6IjU5dG1UaDVuaVl6aU4yaGowZ2RNcHc9PSIsInZhbHVlIjoiMFVueEVGMHhyZnpwZHRHVXBpYWRyM2JDdnhzcXNvd2Nvcmo0bG80TklvNDNLaVJqSHlnNTR3SFVTZk5RaXlLRCIsIm1hYyI6IjRkNzU3ZTY2NmZmMGMzODgwMGNlNzA4OWQzZDBiMjJiNTU5NzE1MzlmODJkNGIxNzJiZTYxYzA5MDkyY2NjZGUifQ%3D%3D; expires=Mon, 10-Aug-2020 15:10:10 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6Ik1mOGZQWjF0TEVTeUcrNENKVHZINEE9PSIsInZhbHVlIjoiQU9QMytra0Z2dEhlWmxQeThSK0lxaVVjV3JSbkV6QVBNODI2ZDRHdDNYYWUyZXdjMEVpdUNOdHl4YVMwNEhqOSIsIm1hYyI6ImQxMGNhYTlhZmIzNWQyZjY0NmUxMGI2NjJmMDFmZTZiOGM4ZGZhNzFlODFmODhjNzA3NGUxNjNiYjEwYjc3ODgifQ%3D%3D; expires=Mon, 10-Aug-2020 15:10:10 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "checknews",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/checknews?news_id=1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"checknews"
+							],
+							"query": [
+								{
+									"key": "news_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:10:10 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:10:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6IjU5dG1UaDVuaVl6aU4yaGowZ2RNcHc9PSIsInZhbHVlIjoiMFVueEVGMHhyZnpwZHRHVXBpYWRyM2JDdnhzcXNvd2Nvcmo0bG80TklvNDNLaVJqSHlnNTR3SFVTZk5RaXlLRCIsIm1hYyI6IjRkNzU3ZTY2NmZmMGMzODgwMGNlNzA4OWQzZDBiMjJiNTU5NzE1MzlmODJkNGIxNzJiZTYxYzA5MDkyY2NjZGUifQ%3D%3D; expires=Mon, 10-Aug-2020 15:10:10 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6Ik1mOGZQWjF0TEVTeUcrNENKVHZINEE9PSIsInZhbHVlIjoiQU9QMytra0Z2dEhlWmxQeThSK0lxaVVjV3JSbkV6QVBNODI2ZDRHdDNYYWUyZXdjMEVpdUNOdHl4YVMwNEhqOSIsIm1hYyI6ImQxMGNhYTlhZmIzNWQyZjY0NmUxMGI2NjJmMDFmZTZiOGM4ZGZhNzFlODFmODhjNzA3NGUxNjNiYjEwYjc3ODgifQ%3D%3D; expires=Mon, 10-Aug-2020 15:10:10 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "checknews",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/newsletter/news/review/checknews?news_id=1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"newsletter",
+								"news",
+								"review",
+								"checknews"
+							],
+							"query": [
+								{
+									"key": "news_id",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:10:10 GMT"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 10 Aug 2020 13:10:10 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.2.32"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "XSRF-TOKEN=eyJpdiI6IjU5dG1UaDVuaVl6aU4yaGowZ2RNcHc9PSIsInZhbHVlIjoiMFVueEVGMHhyZnpwZHRHVXBpYWRyM2JDdnhzcXNvd2Nvcmo0bG80TklvNDNLaVJqSHlnNTR3SFVTZk5RaXlLRCIsIm1hYyI6IjRkNzU3ZTY2NmZmMGMzODgwMGNlNzA4OWQzZDBiMjJiNTU5NzE1MzlmODJkNGIxNzJiZTYxYzA5MDkyY2NjZGUifQ%3D%3D; expires=Mon, 10-Aug-2020 15:10:10 GMT; Max-Age=7200; path=/"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "laravel_session=eyJpdiI6Ik1mOGZQWjF0TEVTeUcrNENKVHZINEE9PSIsInZhbHVlIjoiQU9QMytra0Z2dEhlWmxQeThSK0lxaVVjV3JSbkV6QVBNODI2ZDRHdDNYYWUyZXdjMEVpdUNOdHl4YVMwNEhqOSIsIm1hYyI6ImQxMGNhYTlhZmIzNWQyZjY0NmUxMGI2NjJmMDFmZTZiOGM4ZGZhNzFlODFmODhjNzA3NGUxNjNiYjEwYjc3ODgifQ%3D%3D; expires=Mon, 10-Aug-2020 15:10:10 GMT; Max-Age=7200; path=/; httponly"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}
